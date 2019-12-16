@@ -1,0 +1,14 @@
+/***** FONTS *****/
+@font-face {
+    font-family: FonteTitle;
+    src: url(../assets/fonts/Saira-Bold.ttf);
+}
+
+@font-face {
+    font-family: FonteBody;
+    src: url(../assets/fonts/Armata-Regular.ttf);
+}
+
+html{
+    font-family: FonteBody;
+}

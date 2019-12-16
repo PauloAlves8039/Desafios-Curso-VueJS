@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Desafio Template</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="icon" href="assets/logo/logo.png">
+    <link rel='stylesheet' href='css/style.css'>
+    <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+    <div id="desafio">
+        <!-- 1) Preencha a tag <p> abaixo com o seu Nome e Idade - usando Interpolação -->
+        <p>Usando VueJS - {{ nome }} ({{ idade }})</p>
+        
+        <!-- 2) Exiba sua idade multiplicada por 3 -->
+        <p>{{ multiplicarIdade() }}</p>
+        
+        <!-- 3) Chame uma função para exibir um número randomico entre 0 and 1 (Math.random()) -->
+        <p>{{ valorRandomico() }}</p>
+        
+        <!-- 4) Procure uma imagem no google e exiba na tag img fazendo o binding no atributo "src" -->
+        <div>
+            <img v-bind:src="imagem" height="300">
+        </div>
+        
+        <!-- 5) Inicialize o input com o seu nome (use o atributo "value") -->
+        <div>
+            <input type="text" v-bind:value="nome">
+        </div>
+    </div>
+    <script src="001-desafio-template.js"></script>
+</body>
+</html>
+
+
