@@ -9,6 +9,6 @@
     src: url(../assets/fonts/Armata-Regular.ttf);
 }
 
-html{
+html button{
     font-family: FonteBody;
 }
