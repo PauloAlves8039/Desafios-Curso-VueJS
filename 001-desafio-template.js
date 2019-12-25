@@ -1,4 +1,3 @@
-  
 /*
  * Arquivo: desafio-template.js
  * Autor: Paulo Alves
@@ -11,7 +10,7 @@ new Vue({
     data:{
         nome: 'Paulo',
         idade: 25,
-        imagem: 'https://cdn.pixabay.com/photo/2014/08/15/11/29/sea-418742_960_720.jpg'
+        imagem: 'https://images.pexels.com/photos/6945/sunset-summer-golden-hour-paul-filitchkin.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
     },
     methods: {
         multiplicarIdade(){
