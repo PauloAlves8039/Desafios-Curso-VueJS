@@ -1,5 +1,5 @@
 /*
- * Arquivo: desafio-propriedades.js
+ * Arquivo: 003-desafio-propriedades.js
  * Autor: Paulo Alves
  * Descrição: solução do exercicio sobre o uso de propriedades
  * Data: 10/01/2020
